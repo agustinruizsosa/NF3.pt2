@@ -10,8 +10,15 @@
 // mostrarNomCognom(nom,cognom)
 
 //2
-valor = 10
-function  tipoParametre(param) {
-    console.log(typeof param)
+// valor = 10
+// function  tipoParametre(param) {
+//     console.log(typeof param)
+// }
+// tipoParametre(valor)
+
+//3
+const dada = new Date()
+function data(data) {
+    console.log(data)
 }
-tipoParametre(valor)
+data(dada)
