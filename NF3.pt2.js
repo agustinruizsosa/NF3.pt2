@@ -1,10 +1,17 @@
 //1
+//
+// nom = "Agustín"
+// cognom = "Ruiz"
+//
+// function mostrarNomCognom( n, c) {
+//     console.log (n + " " + c)
+// }
+//
+// mostrarNomCognom(nom,cognom)
 
-nom = "Agustín"
-cognom = "Ruiz"
-
-function mostrarNomCognom( n, c) {
-    console.log (n + " " + c)
+//2
+valor = 10
+function  tipoParametre(param) {
+    console.log(typeof param)
 }
-
-mostrarNomCognom(nom,cognom)
+tipoParametre(valor)
