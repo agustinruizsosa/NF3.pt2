@@ -62,10 +62,25 @@
 // console.log(siete())
 
 //E8
+// enter1 = 10
+// enter2 = 20
+//
+// function vuit ( un, dos){
+//     if (un || dos === 30){
+//         return true
+//     }else if (un + dos === 30) {
+//         return true
+//     }else {
+//         return false
+//     }
+// }
+//
+// console.log(vuit(enter1,enter2))
+
+//E9
 enter1 = 10
 enter2 = 20
-
-function vuit ( un, dos){
+var retornaTrue = ( un, dos) =>{
     if (un || dos === 30){
         return true
     }else if (un + dos === 30) {
@@ -75,4 +90,4 @@ function vuit ( un, dos){
     }
 }
 
-console.log(vuit(enter1,enter2))
+console.log(retornaTrue(enter1,enter2))
