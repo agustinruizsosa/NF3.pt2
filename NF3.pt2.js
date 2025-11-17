@@ -108,10 +108,18 @@
 // console.log(iguals(valor1,valor2))
 
 //11
-arrel = 110
+// arrel = 110
+//
+// var ferArrel =  (v1)=>{
+//     var resultatArrel = Math.sqrt(v1)
+//     return resultatArrel.toFixed(2)
+// }
+// console.log(ferArrel(arrel))
 
-var ferArrel =  (v1)=>{
-    var resultatArrel = Math.sqrt(v1)
-    return resultatArrel.toFixed(2)
+//E12
+text = "HOLAQUETAL"
+
+var pasarMinuscules = (txt) => {
+    return txt.toLowerCase()
 }
-console.log(ferArrel(arrel))
+console.log(pasarMinuscules(text))
