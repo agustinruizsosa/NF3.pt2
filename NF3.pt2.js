@@ -125,17 +125,34 @@
 // console.log(pasarMinuscules(text))
 
 //E13
-valor1 = null
-valor2 = 20
+// valor1 = null
+// valor2 = 20
+//
+// var valorNoNull = (v1,v2) => {
+//     if (v1 !== null){
+//         return v1
+//     }else if (v2 !== null){
+//         return v2
+//     }else {
+//         return false
+//     }
+// }
+//
+// console.log(valorNoNull(valor1,valor2))
 
-var valorNoNull = (v1,v2) => {
-    if (v1 !== null){
-        return v1
-    }else if (v2 !== null){
-        return v2
-    }else {
-        return false
-    }
+//E14
+const frase = "Hola com estàs";
+const paraula = "com";
+
+function posicio(frase, paraula) {
+    const indexParaula = frase.indexOf(paraula);
+    return frase.length - indexParaula;
 }
 
-console.log(valorNoNull(valor1,valor2))
+function dividir(frase, paraula) {
+    const posicioParaula = posicio(frase, paraula);
+    return frase.slice(frase.length - posicioParaula) ;
+}
+
+console.log(posicio(frase, paraula));
+console.log(dividir(frase, paraula));
