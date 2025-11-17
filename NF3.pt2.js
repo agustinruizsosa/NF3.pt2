@@ -46,10 +46,17 @@
 // mostrarVocals(text)
 
 //E6
-function suma(a,b, c= 10){
-    return a+b+c
-}
-valor1 = 4
-valor2 = 5
+// function suma(a,b, c= 10){
+//     return a+b+c
+// }
+// valor1 = 4
+// valor2 = 5
+//
+// console.log(suma(valor1,valor2))
 
-console.log(suma(valor1,valor2))
+//E7
+function siete (){
+    data(dada)
+    return suma(valor1,valor2,valor3)
+}
+console.log(siete())
