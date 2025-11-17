@@ -78,16 +78,31 @@
 // console.log(vuit(enter1,enter2))
 
 //E9
-enter1 = 10
-enter2 = 20
-var retornaTrue = ( un, dos) =>{
-    if (un || dos === 30){
-        return true
-    }else if (un + dos === 30) {
+// enter1 = 10
+// enter2 = 20
+// var retornaTrue = ( un, dos) =>{
+//     if (un || dos === 30){
+//         return true
+//     }else if (un + dos === 30) {
+//         return true
+//     }else {
+//         return false
+//     }
+// }
+//
+// console.log(retornaTrue(enter1,enter2))
+
+//10
+
+valor1 = 10
+valor2 = 10
+
+var iguals = (v1,v2) => {
+    if (v1 === v2 && typeof v1 === typeof v2){
         return true
     }else {
         return false
     }
 }
 
-console.log(retornaTrue(enter1,enter2))
+console.log(iguals(valor1,valor2))
