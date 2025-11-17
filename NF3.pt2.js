@@ -17,8 +17,16 @@
 // tipoParametre(valor)
 
 //3
-const dada = new Date()
-function data(data) {
-    console.log(data)
+// const dada = new Date()
+// function data(data) {
+//     console.log(data)
+// }
+// data(dada)
+
+//E4
+function valorRaro (){
+    var valor = 10
+    console.log(valor)
+
 }
-data(dada)
+console.log(valor)
