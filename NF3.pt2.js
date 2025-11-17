@@ -141,18 +141,23 @@
 // console.log(valorNoNull(valor1,valor2))
 
 //E14
-const frase = "Hola com estàs";
-const paraula = "com";
+// const frase = "Hola com estàs";
+// const paraula = "com";
+//
+// function posicio(frase, paraula) {
+//     const indexParaula = frase.indexOf(paraula);
+//     return frase.length - indexParaula;
+// }
+//
+// function dividir(frase, paraula) {
+//     const posicioParaula = posicio(frase, paraula);
+//     return frase.slice(frase.length - posicioParaula) ;
+// }
+//
+// console.log(posicio(frase, paraula));
+// console.log(dividir(frase, paraula));
 
-function posicio(frase, paraula) {
-    const indexParaula = frase.indexOf(paraula);
-    return frase.length - indexParaula;
-}
-
-function dividir(frase, paraula) {
-    const posicioParaula = posicio(frase, paraula);
-    return frase.slice(frase.length - posicioParaula) ;
-}
-
-console.log(posicio(frase, paraula));
-console.log(dividir(frase, paraula));
+//E15
+valorx = 1
+var quince = (x) => x + x +x
+console.log(quince(valorx))
