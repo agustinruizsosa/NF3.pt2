@@ -55,8 +55,24 @@
 // console.log(suma(valor1,valor2))
 
 //E7
-function siete (){
-    data(dada)
-    return suma(valor1,valor2,valor3)
+// function siete (){
+//     data(dada)
+//     return suma(valor1,valor2,valor3)
+// }
+// console.log(siete())
+
+//E8
+enter1 = 10
+enter2 = 20
+
+function vuit ( un, dos){
+    if (un || dos === 30){
+        return true
+    }else if (un + dos === 30) {
+        return true
+    }else {
+        return false
+    }
 }
-console.log(siete())
+
+console.log(vuit(enter1,enter2))
