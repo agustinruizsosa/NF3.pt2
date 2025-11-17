@@ -24,9 +24,23 @@
 // data(dada)
 
 //E4
-function valorRaro (){
-    var valor = 10
-    console.log(valor)
+// function valorRaro (){
+//     var valor = 10
+//     console.log(valor)
+//
+// }
+// console.log(valor)
+
+//E5
+text = "ola"
+contador = 0
+function  mostrarVocals(string) {
+    for (let i = 0; i < string.length; i++) {
+        if (string[i] === "a" || string[i] === "e" || string[i] === "i" || string[i] === "o" || string[i] === "u") {
+            contador++
+        }
+    }
+    console.log("La paraula " + string + " te  " + contador + " vocals ")
 
 }
-console.log(valor)
+mostrarVocals(text)
