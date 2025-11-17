@@ -32,15 +32,24 @@
 // console.log(valor)
 
 //E5
-text = "ola"
-contador = 0
-function  mostrarVocals(string) {
-    for (let i = 0; i < string.length; i++) {
-        if (string[i] === "a" || string[i] === "e" || string[i] === "i" || string[i] === "o" || string[i] === "u") {
-            contador++
-        }
-    }
-    console.log("La paraula " + string + " te  " + contador + " vocals ")
+// text = "ola"
+// contador = 0
+// function  mostrarVocals(string) {
+//     for (let i = 0; i < string.length; i++) {
+//         if (string[i] === "a" || string[i] === "e" || string[i] === "i" || string[i] === "o" || string[i] === "u") {
+//             contador++
+//         }
+//     }
+//     console.log("La paraula " + string + " te  " + contador + " vocals ")
+//
+// }
+// mostrarVocals(text)
 
+//E6
+function suma(a,b, c= 10){
+    return a+b+c
 }
-mostrarVocals(text)
+valor1 = 4
+valor2 = 5
+
+console.log(suma(valor1,valor2))
