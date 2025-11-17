@@ -117,9 +117,25 @@
 // console.log(ferArrel(arrel))
 
 //E12
-text = "HOLAQUETAL"
+// text = "HOLAQUETAL"
+//
+// var pasarMinuscules = (txt) => {
+//     return txt.toLowerCase()
+// }
+// console.log(pasarMinuscules(text))
 
-var pasarMinuscules = (txt) => {
-    return txt.toLowerCase()
+//E13
+valor1 = null
+valor2 = 20
+
+var valorNoNull = (v1,v2) => {
+    if (v1 !== null){
+        return v1
+    }else if (v2 !== null){
+        return v2
+    }else {
+        return false
+    }
 }
-console.log(pasarMinuscules(text))
+
+console.log(valorNoNull(valor1,valor2))
